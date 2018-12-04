@@ -1,5 +1,5 @@
 protocol FooBar {
-    //required
+    //requirement method
     func foo() -> Void
 }
 
@@ -8,7 +8,7 @@ extension FooBar {
     func foo(){
         print("foo")
     }
-    //not required
+    //not a requirement method
     func bar(){
         print("bar")
     }
